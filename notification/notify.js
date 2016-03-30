@@ -2,8 +2,6 @@
 
     function Notifier() {};
 
-    var queue = [];
-
     /* 是否支持 */
     Notifier.prototype.HasSupport = function() {
         if ("Notification" in window) {
